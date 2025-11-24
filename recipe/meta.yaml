@@ -1,5 +1,5 @@
 {% set name = "elasticipy" %}
-{% set version = "4.1.1" %}
+{% set version = "4.2.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5adfa34405a466210997930d482274a97a6c002c7a6e8bf7662bd0b96f1daf21
+  sha256: e96aa116791862ec5ed89de6c287e45801005b994b146563f203485a643d97b2
 
 
 build:
@@ -28,7 +28,7 @@ requirements:
     - matplotlib-base
     - pandas
     - qtpy
-    - pyqt >=5,<6 
+    - pyqt >=5,<6
 
 test:
   imports:
