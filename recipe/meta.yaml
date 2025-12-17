@@ -1,5 +1,5 @@
 {% set name = "elasticipy" %}
-{% set version = "5.0.0" %}
+{% set version = "6.0.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0f84399288c8c1d540b4c1bfdc87aa421b143b07de3d13bc55d015957211e39f
+  sha256: 5a7cc21409f087fad5a1b9be5c7076aee97730878d4ae70069019396c4bd9300
 
 
 build:
