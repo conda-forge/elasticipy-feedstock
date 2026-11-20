@@ -1,5 +1,5 @@
 {% set name = "elasticipy" %}
-{% set version = "8.0.0" %}
+{% set version = "8.1.0" %}
 {% set python_min = "3.9" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 340cd818b97a5e3b3b13b08b061a126044c6fb6c39a97327eda6ed45681f6be7
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: cd68e9b433a099a7251ae75c86d3f7731e98b24b080392eef379ea1545d033e2
 
 
 build:
